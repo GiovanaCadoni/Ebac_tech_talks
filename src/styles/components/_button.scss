@@ -9,8 +9,8 @@
     white-space: nowrap;
 
     &--primary {
-        color: #fff;
-        background-color: #4f2ac3;
+        color: variaveis.$textColor;
+        background-color: variaveis.$primaryButton;
     }
 
     @media (max-width: 640px) {
